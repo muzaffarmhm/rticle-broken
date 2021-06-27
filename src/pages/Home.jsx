@@ -1,11 +1,11 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Statistics from './components/Statistics';
-import PostTemplate from './components/PostTemplate';
-import Footer from './components/Footer';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Statistics from '../components/Statistics';
+import PostTemplate from '../components/PostTemplate';
+import Footer from '../components/Footer';
 
-function App() {
+
+function Home() {
   return (
     <div>
       <Navbar/>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
